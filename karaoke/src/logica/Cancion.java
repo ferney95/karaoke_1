@@ -12,6 +12,7 @@ public class Cancion {
 	private ArrayList<ArchivoPlano> letra;
 	private int numeroLineaActual	;
 	private String imagen	;
+	private int jugar;
 
 	public Cancion(){
 		
