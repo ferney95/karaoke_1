@@ -26,7 +26,7 @@ public class VentanaPrincipal extends JFrame {
 		
 		
 		setTitle("KARAOKE");
-		setSize(200,610);
+		setSize(800,610);
         setBackground(new java.awt.Color(0,0,0));
         setResizable( false );
         setDefaultCloseOperation(EXIT_ON_CLOSE);
