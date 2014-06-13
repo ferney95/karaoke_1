@@ -13,6 +13,8 @@ public class PanelIzquierda extends JPanel {
 	
 	private JComboBox<Genero> jcGenero;
 	private JComboBox<Autor> jcAutor;
+	private JLabel lbMostrarCanciones;
+	private JButton jbBuscar;
 	
 	public PanelIzquierda() {
 		
@@ -29,6 +31,12 @@ public class PanelIzquierda extends JPanel {
 		jcAutor.setBackground(Color.WHITE);
 		add(jcAutor);
 		
+		lbMostrarCanciones = new JLabel();
+		
+		add(lbMostrarCanciones);
+		
+		jbBuscar = new JButton("Buscar");
+		add(jbBuscar);
 	}
 
 }
