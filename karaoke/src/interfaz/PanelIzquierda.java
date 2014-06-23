@@ -18,24 +18,26 @@ public class PanelIzquierda extends JPanel {
 	
 	public PanelIzquierda() {
 		
-		setSize(500,510);
-		setBackground(Color.RED);
+		setSize(600,100);
+		
 		
 		jcGenero = new JComboBox<Genero>();
-		jcGenero.setSize(20, 78);
+		jcGenero.setSize(30, 100);
 		jcGenero.setBackground(Color.WHITE);
 		add(jcGenero);
 		
 		jcAutor = new JComboBox<Autor>();
-		jcAutor.setSize(20, 78);
+		jcAutor.setSize(30, 100);
 		jcAutor.setBackground(Color.WHITE);
 		add(jcAutor);
 		
 		lbMostrarCanciones = new JLabel();
-		
+		lbMostrarCanciones.setSize(500,100);
+		lbMostrarCanciones.setBackground(Color.RED);
 		add(lbMostrarCanciones);
 		
 		jbBuscar = new JButton("Buscar");
+		jbBuscar.setSize(40,100);
 		add(jbBuscar);
 	}
 
